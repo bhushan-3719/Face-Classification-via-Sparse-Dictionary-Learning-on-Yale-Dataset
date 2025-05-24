@@ -3,6 +3,7 @@ This project implements a face classification and novelty detection system using
 
 
 Project Highlights
+
 Used Dataset: Yale Face Database (Grayscale Images)
 
 Approach: Sparse Dictionary Learning with class-wise atom mapping
@@ -12,6 +13,7 @@ Optimization: Solved using CVXPY to separate signal from noise
 Result: 100% accuracy on 19 test images with precise classification and robust novelty detection
 
 Technologies Used
+
 Python 3
 
 OpenCV (for image processing)
@@ -23,6 +25,8 @@ Scikit-learn (for dictionary learning)
 CVXPY (for convex optimization)
 
 Matplotlib (for visualization)
+
+How It Works:-
 
 Preprocessing: Load grayscale face images and resize to 64×64.
 
